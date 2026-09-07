@@ -8,12 +8,11 @@ Power BI provides a built-in Usage Metrics report for monitoring report views an
 
 This limitation made it difficult for the data analytics team to monitor adoption-related OKRs and identify reports or users requiring further investigation. To address this, I developed an enhanced Power BI Report Usage Metrics dashboard focused on making report adoption, user engagement, and performance more actionable.
 
-The analysis is organized into four key areas:
+The analysis is organized into three key areas:
 
-- **Report Usage and Adoption:** Monitors total views, unique users, average views per user, viewing trends, and the most frequently accessed reports.
-- **User Engagement and Retention:** Evaluates repeat usage, meaningful adoption, active days, and each user’s most recent activity.
-- **Usage Distribution:** Groups users by activity level to distinguish one-time, occasional, and more engaged users.
-- **Report Performance:** Assesses report load times using percentile-based performance metrics to identify potentially slow reports.
+- **Report Usage and Adoption:** Monitors report and page views, viewing trends, report coverage, and the most frequently accessed content.
+- **User Engagement and Retention:** Evaluates adoption, repeat usage, meaningful engagement, active days, reports viewed per user, and user-engagement distribution.
+- **Report Performance:** Assesses report load times using average, P50, P75, and P90 measures to identify comparatively slower reports.
 
 The dashboard was designed to answer the following questions:
 
@@ -25,12 +24,6 @@ The dashboard was designed to answer the following questions:
 - When was each user last active?
 
 > **Data limitation:** The underlying Power BI Usage Metrics data currently provides approximately one month of historical activity. This limits long-term retention, quarterly adoption, and historical trend analysis.
-
-The DAX measures used to calculate the enhanced usage, engagement, adoption, and performance metrics can be found [here](link).
-
-Definitions of the dashboard metrics and their underlying business logic can be found [here](link).
-
-Dashboard screenshots and a walkthrough of the Power BI report can be found [here](link).
 
 
 # Data Structure & Initial Checks
